@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-H0pAp9JsGZ4UogHd+8x/E8S3Dyc5zFw8s9Io5eBZwN5PDEAk7z95MPog01ZKHptwoZcU4g9IzCH1n44i9Fq0Jg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="full">
+            <div class="one">
+                <h2 class="animated-text">Kulbushan</h2>
+                <div class="button b1"><a href="./pdf/Kulbushan.pdf" class="btn animated-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a></div>
+            </div>
+            <div class="two">
+                <h2 class="animated-text">Anvi</h2>
+                <div class="button"><a href="./pdf/Anvi.pdf" class="btn animated-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // GSAP Animations
+        document.addEventListener("DOMContentLoaded", function() {
+            gsap.from(".animated-text", { duration: 0.7, opacity: 0, y: -50, stagger: 0.3, ease: "power2.out" });
+            gsap.from(".animated-button", { duration: 0.7, opacity: 0, scale: 0.8, stagger: 0.3, delay: 0.5, ease: "elastic.out(1, 0.3)" });
+        });
+    </script>
+</body>
+</html>
