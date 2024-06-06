@@ -47,6 +47,7 @@ html, body{
 .btn{
     text-decoration: none;
     color: black;
+    padding: 100%;
 }
 h2{
     font-family: "Poppins", sans-serif;
