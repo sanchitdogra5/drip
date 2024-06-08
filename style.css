@@ -83,3 +83,9 @@ svg{
 .button:hover .btn{
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .button {
+    min-width: 30%;
+  }
+}
