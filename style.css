@@ -86,7 +86,7 @@ svg{
 
 @media only screen and (max-width: 600px) {
     .main{
-        min-width: 350px;
+        min-width: 320px;
     }
     .full{
         min-width: 70%;
