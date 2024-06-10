@@ -16,7 +16,7 @@ html, body{
 .full{
     margin-top: 30px;
     width: 95%;
-    height: 96vh;
+    height: auto;
     border: 1px solid #949494;
     border-radius: 30px;
 }
