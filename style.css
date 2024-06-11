@@ -89,8 +89,8 @@ svg{
     .main{
         min-width: 320px;
     }
-    .h2{
-        font-size: 18px;
+    h2{
+        font-size: 24px;
     }
     .full{
         min-width: 70%;
