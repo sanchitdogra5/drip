@@ -30,7 +30,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 .button{
     display: flex;
